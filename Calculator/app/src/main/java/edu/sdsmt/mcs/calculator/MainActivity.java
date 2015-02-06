@@ -11,11 +11,7 @@ import android.view.MenuItem;
 public class MainActivity extends Activity implements OnFragmentInteractionListener
 {
 
-    private Fragment _mainFragment;
-    private Fragment _resultsFragment;
-
     private long _total = 0;
-
 
     @Override
     public void onAddButtonPressed(int value)
