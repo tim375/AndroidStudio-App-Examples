@@ -29,13 +29,6 @@ public class MainActivity extends Activity implements OnFragmentInteractionListe
     @Override
     public void onEqualsButtonPressed()
     {
-//        DEBUG:
-//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-//        builder.setTitle("EQUAL");
-//        builder.setMessage("are you there");
-//
-//        builder.create().show();
-
         getFragmentManager()
           .beginTransaction()
           .replace(R.id.container, ResultsFragment.newInstance(String.valueOf(_total)))
